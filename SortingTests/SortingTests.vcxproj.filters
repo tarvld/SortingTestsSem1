@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sorts">
+      <UniqueIdentifier>{6b0ef90c-8c37-42a5-b27f-e9169e8342fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{0ab7321f-0db5-41ab-bf3b-54a4616432cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Исходные файлы">
+      <UniqueIdentifier>{327ecc05-6a43-4427-b896-f82d95237034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorts\Исходные файлы">
+      <UniqueIdentifier>{6d0171f3-e032-47da-9896-bbf6631491cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Файлы заголовков">
+      <UniqueIdentifier>{11255000-9e7e-47d3-a3a4-a7796835096f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorts\Файлы заголовков">
+      <UniqueIdentifier>{245fabe1-b234-4e00-b54c-8dab701fc91a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Tests\catch2\catch.hpp">
+      <Filter>Tests\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sorts\BubbleSort.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sorts\ExchangeSort.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sorts\Func.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sorts\InsertionSort.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sorts\OptimizedBubbleSort.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sorts\SelectionSort.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sorts\BubbleSort.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sorts\Func.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\BubbleSortTest.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sorts\OptimizedBubbleSort.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\OptimizedBubbleSortTest.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\Tests_main.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sorts\ExchangeSort.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sorts\InsertionSort.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sorts\SelectionSort.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\ExchangeSortTest.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\InsertionSortTest.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\SelectionSortTest.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
